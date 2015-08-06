@@ -30,7 +30,7 @@ site_obj = Site.create_without_data(XPURE_SITE_ID)
 """
 
 # for tech2ipo
-leancloud.init(TECH2IPO_APP_ID, master_key=TECH2IPOL_APP_MASTER_KEY)
+leancloud.init(TECH2IPO_APP_ID, master_key=TECH2IPO_APP_MASTER_KEY)
 site_obj = Site.create_without_data(TECH2IPO_SITE_ID)
 
 tag_dict = {u'新闻': u'每日资讯', u'观点': u'深度观点',  u'人物': u'人物特写',
