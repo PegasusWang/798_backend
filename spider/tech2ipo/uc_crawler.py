@@ -9,7 +9,6 @@ from config import *
 from bs4 import BeautifulSoup
 from leancloud import Object, Query
 
-
 leancloud.init(TECH2IPO_APP_ID, master_key=TECH2IPO_APP_MASTER_KEY)
 PostShort = Object.extend('PostShort')
 
