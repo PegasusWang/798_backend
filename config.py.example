@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+# config for leancloud
+
+
+class CONFIG:
+    APP_ID = ''
+    APP_MASTER_KEY = ''
